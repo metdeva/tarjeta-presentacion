@@ -1,0 +1,105 @@
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #bb608b, #d57281, #e5897a, #eca478, #ebc07f, #dbc180, #ccc282, #bec287, #a5a979, #8c906b, #74775e, #5e6050);;
+}
+.imagen{
+    width: 100%;
+    height: 200px;
+    border-bottom: 4px solid rgb(134, 134, 18);
+}
+.imagen img{
+    width: 100%;
+    height: 200px;
+    opacity: 0.6;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(134, 134, 18);
+    overflow: hidden;
+    position: absolute;
+    top:100px;
+}
+.circle img{
+    width: 200px;
+    height: 200px;
+}
+.contact{
+    width: 600px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(73, 71, 71);
+    letter-spacing: 0.5em;
+    font-weight: bold;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    /*height: 63px;*/
+    position: absolute;
+    top: 380px;
+    text-align: center;
+}
+.description p {
+    margin: 8px;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+}
+.icono{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 28px;
+    justify-content: center;
+}
+.social {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.social img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:640px){
+    .card,
+    .contact,
+    .description{
+        width: 400px;
+    }
+    .circle,
+    .circle img{
+        width: 170px;
+        height: 170px;
+    }
+    .contact{
+        font-size: 26px;
+    }
+    .description p {
+        font-size: 16px;
+    }
+
+}
