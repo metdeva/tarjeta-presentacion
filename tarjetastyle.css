@@ -90,14 +90,15 @@ section{
 }
 footer{
     position: absolute;
-    bottom: -8px;
+    bottom: 0px;
     font-size: small;
     color: gray;
 }
 @media (max-width:640px){
     .card,
     .contact,
-    .description{
+    .description,
+    footer{
         width: 400px;
     }
     .circle,
