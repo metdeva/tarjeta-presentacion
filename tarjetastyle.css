@@ -55,7 +55,6 @@ section{
     flex-direction: column;
     width: 600px;
     text-align: center;
-    /*height: 63px;*/
     position: absolute;
     top: 380px;
 
@@ -96,10 +95,7 @@ footer{
     color: gray;
 }
 @media (max-width:640px){
-    .card,
-    .contact,
-    .description,
-    footer{
+    .card{
         width: 400px;
     }
     .circle,
@@ -113,8 +109,4 @@ footer{
     .description p {
         font-size: 16px;
     }
-    footer{
-        justify-content: space-around;
-    }
-
 }
